@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset ="UTF-8">
+        <meta name ="viewport" content ="width = device-width, initial-scale = 1.0, minimum-scale = 1.0">
+        <title>'Wedding Invitation Designer</title>
+        <link id="style" rel="stylesheet" type="text/css" href="style.css" title="main">
+    </head>
+    <body>
+        <div class = "wrapper">
+            <!--This is the beginning of the Header section-->
+            <Header>
+            <section>
+                <h1>Wedding Invitation Designer</h1>
+                <h2>Steampunk - Art Deco - Formal</h2>
+                <div class="clear"></div>
+            </section>
+            </Header>
+       <!--This is the beginning of the design selection section>-->
+            <div class="clear"></div>
+            <div class="leftCol">
+                <div class="styleSelector">
+                    <h4>Please select your invitiation design by clicking on the images below</h4>
+                    <a title="Steampunk Design 1" href="#" onclick="changeCSS('steampunkA.css', 0);"> <img  class="steampunk" alt="Steampunk Design 1" src="images/time-machine-6264908_640.jpg" ></a>
+                    <a title="Steampunk Design 2" href="#" onclick="changeCSS('steampunkB.css', 0);"> <img class="steampunk" alt="Steampunk Design 2" src="images/clock-1516967_640.png"> </a>
+                   <a title="Art Deco Design 1" href="#" onclick="changeCSS('artDecoA.css', 0);"> <img class="artDeco" alt="Art Deco Design 1" src="images/art-deco-ornament-4924956_640.png"> </a>
+                   <a title="Art Deco Design 2" href="#" onclick="changeCSS('artDecoB.css', 0);"> <img class="artDeco" alt="Art Deco Design 2" src="images/flapper-couple-3132039_640.jpg"></a> <br>
+                  <a title="Formal Design 1" href="#" onclick="changeCSS('formalA.css', 0);"><img class="formal" alt="Formal Design 1"  src="images/luigi-pozzoli-jZrfY30y6Kc-unsplash.jpg"></a>
+                  <a title="Formal Design 2" href="#" onclick="changeCSS('formalB.css', 0);"> <img class="formal" alt="Formal Design 2" src="images/georgia-de-lotz--3xSBrSzTjg-unsplash.jpg"></a>
+                </div>
+            <!--This is the end of the design selection section--> 
+            <!--This is the beginning of the Wedding Details section-->  
+            <!--This is the beginning of the input section--> 
+                <div class="inpNames">
+                    <h4>Wedding Couple
+                    </h4>
+                   <label for="name1">Name 1:</label>
+                   <input type="text" id="name1" name="name1" placeholder="First Name or First and Last Name"
+                    minlength ="4" maxlength ="50" size="50" onkeyup="getName()"><br><br>
+                    <label for="name2">Name 2:</label>
+                    <input type="text" id="name2"  name="name2" placeholder="First Name or First and Last Name"
+                    minlength="4" maxlength="50" size= "50" onkeyup="getName()"><br>
+                </div>
+                <div class="inpInviteText">    
+                    <h4>Please click on the text below to select
+                    </h4>
+                    <p id="click1" onclick="inviteTextA()">Request the pleasure of your company at their wedding</p>
+                    <p id="click2" onclick="inviteTextB()">Joyfully invite you to share in a celebration of love and commitment </p>
+                    <p id="click3" onclick="inviteTextC()">Together with their families, invite you to join them in the celebration of their marriage</p>
+                </div>
+                <div class="inpWeddingDetails"></div>
+                <h4>Wedding Date and Time</h4>
+                <label for="weddingDate"></label>  
+                <textarea id="weddingDate" name="weddingDate" rows="3" cols="60" placeholder="Weekday, Date Month Year, Time AM/PM (Saturday, 25 September 2021, 2:00PM)" oninput="dateTime()"></textarea>
+                <h4>Wedding Venue</h4>
+                <label for="weddingVenue"></label>  
+                <textarea placeholder="Wedding Venue Name, Street Address, Suburb, Postcode" id="weddingVenue" name="weddingVenue" rows="5" cols="60"  oninput="Venue()"></textarea>
+                <div class=inpRsvpDetails>
+                <h4>RSVP Details</h4>
+                <label for="rsvp"></label>
+                <textarea id="rsvp" name="rsvp" rows="3" cols="60" oninput="rsvp()" placeholder="RSVP Details (RSVP by Date Month Year, RSVP Respondent Name, RSVP Full Address, Postcode)"></textarea>
+                <br>
+                </div>
+            </div>
+            <!--This is the beginning of the input section--> 
+            <!--This is the beginning of the output section--> 
+            <div class="rightCol">
+                <br><br><br><br>
+                <!--This is the initials and names area-->
+            <div class="output">
+                <div class="Names">
+                <span id="initial" class="output"></span><br><br><br><br>
+                <span id="entireName" class="output"></span><br><br><br><br>
+             </div>  
+            <!--This is the end of the initials and names area--> 
+            <!--This is the beginning of the invite text, wedding venue, date, time and RSVP details area-->
+              <div class="outPWeddingDetails">
+                <p id="outputInviteText"></p><br>
+                <p id="outputWeddingDate"></p>
+                <p id="outputWeddingVenue"></p>
+                <p id="outputRSVP"></p>           
+              </div>
+            </div> 
+            <!--This is the end of the invite text, wedding venue, date, time and RSVP details area-->                           
+            </div>
+             
+            <div class="clear"></div>
+            <!--This is the end of the Wedding Details section -->
+        </div>    
+          <script src="form.js"></script>
+    </body> 
+</html>         
