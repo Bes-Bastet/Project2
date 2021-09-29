@@ -1,15 +1,11 @@
 function changeCSS(cssFile, cssLinkIndex) {
-
     let oldlink = document.getElementsByTagName("link").item(cssLinkIndex);
-
     let newlink = document.createElement("link");
     newlink.setAttribute("rel", "stylesheet");
     newlink.setAttribute("type", "text/css");
     newlink.setAttribute("href", cssFile);
-
     document.getElementsByTagName("head").item(cssLinkIndex).replaceChild(newlink, oldlink);
-  
-}
+ }
 
 function getName() {
   var nameStr = document.getElementById('name1').value;
