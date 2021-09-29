@@ -21,17 +21,17 @@ function getName() {
 
 document.getElementById("click1").onclick = function() {inviteTextA()};
 function inviteTextA() {
-  document.getElementById("outputInviteText").innerHTML =">Request the pleasure of your company at their wedding";
+  document.getElementById("outputInviteText").innerHTML = "Request the pleasure of your company at their wedding";
 }
 
  document.getElementById("click2").onclick = function() {inviteTextB()};
  function inviteTextB() {
-  document.getElementById("outputInviteText").innerHTML ="Joyfully invite you to share in a" + "<br />"  + "celebration of love and commitment";
+  document.getElementById("outputInviteText").innerHTML = "Joyfully invite you to share in a" + "<br />"  + "celebration of love and commitment";
  }
 
   document.getElementById("click3").onclick = function() {inviteTextC()};
   function inviteTextC() {
- document.getElementById("outputInviteText").innerHTML ="Together with their families, invite you" + "<br />"  +  "to join them in the celebration of their marriage";
+ document.getElementById("outputInviteText").innerHTML = "Together with their families, invite you" + "<br />"  +  "to join them in the celebration of their marriage";
  
   } 
  
