@@ -5,6 +5,11 @@
      
 }
 
+@font-face {
+    font-family: "UpperEastSide";
+    src: url("UpperEastSide.ttf");
+    }
+
 body {
     font-family: 'Times New Roman', Times, serif;
     align-content: center;

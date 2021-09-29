@@ -4,6 +4,16 @@
   -moz-box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Steampunk Font by *hannarb";
+  src: url("Steampunk_Font_by_hannarb.otf");
+} 
+
+@font-face {
+  font-family: "Steampunk Font by *hannarb";
+  src: url("Steampunk_Font_by_hannarb.ttf");
+} 
+
 body {
   font-family: 'Times New Roman', Times, serif;
   text-decoration-color: black;

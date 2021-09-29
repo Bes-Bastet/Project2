@@ -14,6 +14,15 @@ body {
         
 }
 
+@font-face {
+    font-family: "Starship Grunge";
+    src: url("StarshipGrunge.ttf");
+    }
+@font-face {
+      font-family: "Starship Grunge";
+      src: url("StarshipGrunge.otf");
+      }
+
 .wrapper {
   width: 1200px;
   height: 1124px;

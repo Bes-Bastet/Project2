@@ -5,6 +5,16 @@
    
 }
 
+@font-face {
+  font-family: "Starship Grunge";
+  src: url("StarshipGrunge.ttf");
+  }
+@font-face {
+    font-family: "Starship Grunge";
+    src: url("StarshipGrunge.otf");
+  }
+  
+
 body {
   font-family: 'Times New Roman', Times, serif;
   text-decoration-color: black;
