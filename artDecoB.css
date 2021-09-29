@@ -82,6 +82,10 @@ textarea::placeholder{
     background-position: center;
     padding: 10px;
 }
+
+.pointer {
+    cursor: pointer;
+}
  
 .artDeco {
     font-family: 'Poiret One', sans-serif;

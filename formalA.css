@@ -82,6 +82,10 @@ textarea::placeholder{
     padding: 10px;
 }
 
+.pointer {
+    cursor: pointer;
+}
+
 .formal {
     font-family: 'Pinyon Script', cursive;
     font-size: 24px;    

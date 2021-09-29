@@ -82,6 +82,10 @@ textarea::placeholder{
   background-color: rgba(247, 104, 9, 0.39);
 }
 
+.pointer {
+  cursor: pointer;
+}
+
 .steampunk {
   font-family: 'Steampunk font by *hannarb', sans-serif;
   font-size: 20px; 

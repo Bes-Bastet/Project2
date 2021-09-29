@@ -83,6 +83,10 @@ textarea::placeholder{
     background-color: rgba(25, 9, 248);
   
 }
+
+.pointer {
+    cursor: pointer;
+}
  
 .artDeco {
     font-family: 'UpperEastSide', sans-serif;

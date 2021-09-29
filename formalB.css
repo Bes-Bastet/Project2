@@ -77,6 +77,10 @@ textarea::placeholder{
     background-position: center;
     padding: 10px;
 }
+
+.pointer {
+    cursor: pointer;
+}
  
 .formal {
     font-family: 'Edwardian Script ITC', sans-serif;

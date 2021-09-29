@@ -89,6 +89,10 @@ textarea::placeholder{
   padding: 10px;
 }
 
+.pointer {
+  cursor: pointer;
+}
+
 .steampunk {
   font-family: 'Starship Grunge', sans-serif;
   font-size: 26px;  
