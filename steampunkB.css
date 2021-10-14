@@ -5,9 +5,10 @@
 }
 
 @font-face {
-  font-family: "Steampunk Font by *hannarb";
-  src: url("Steampunk_Font_by_hannarb.ttf");
-} 
+  font-family: "Steamwheel";
+  src: url("https://www.fontspace.com/steamwheel-font-f54822");
+  src: url("Steamwheel-jE7gM.ttf"); 
+}
 
 body {
   font-family: 'Times New Roman', Times, serif;
@@ -87,31 +88,31 @@ textarea::placeholder{
 }
 
 .steampunk {
-  font-family: 'Steampunk font by *hannarb', sans-serif;
+  font-family: 'Steamwheel', sans-serif;
   font-size: 20px; 
 }
 
 #initial{
   font-size: 72px;
- font-weight: bolder;
+ /*font-weight: bold;*/
  text-transform: capitalize;
 }
 
 #entireName {
  font-size: 48px; 
- font-weight: bolder;
+ /*font-weight: bold;*/
 }
 
 .output {
 display: block;
 text-align: center; 
 align-content: center;
-font-family: 'Steampunk font by *hannarb', sans-serif;
+font-family: 'Steamwheel', sans-serif;
 } 
 
 .outPWeddingDetails {
   font-size: 20px; 
-  font-weight: bolder;
+  /*font-weight: bold;*/
 }
 
   

@@ -114,8 +114,10 @@ textarea::placeholder{
 }
 .outPWeddingDetails {
     font-size: 26px; 
-    font-weight: bold;
+    font-weight: 600;
 }
+
+
 
 
 
